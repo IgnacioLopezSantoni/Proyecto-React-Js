@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(224, 237, 48);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+width: 10%;
+
+}
+a{
+    padding: 10px;
+}
