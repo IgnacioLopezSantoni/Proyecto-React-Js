@@ -1,12 +1,14 @@
 import React from "react"; 
 import Header from "./components/navBar.js/navBar"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 const App = () => {
 
   return (
-    <Header/>
-
-
+    <>
+      <Header/>
+      <ItemListContainer greeting={'Bienvenido'} />
+    </>
   )
 }    
 
