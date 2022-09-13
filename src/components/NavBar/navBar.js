@@ -17,6 +17,8 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import CartWidget from "../CartWidget/CartWidget";
 
+
+
 const drawerWidth = 240;
 const navItems = ["Home", "About", "Contact"];
 
