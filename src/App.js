@@ -1,5 +1,5 @@
 import React from "react"; 
-import NavBar from"./components/NavBar/navBar";
+import NombreComponents from"./components/NavBar/navBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import  MiComponente from "./components/MiComponente";
 
@@ -11,9 +11,10 @@ const App = () => {
 
   return(
     <>
-    <navBar nombre ={nombre} id="1" apellido ={apellido}/>
+    < header nombre ={nombre} id="1" apellido ={apellido}/>
     <ItemListContainer greeting={dash}/>
     <MiComponente/>
+    <NombreComponents/>
     
     
     

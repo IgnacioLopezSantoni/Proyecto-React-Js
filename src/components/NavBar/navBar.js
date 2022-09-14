@@ -69,7 +69,7 @@ function Header(props) {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
                     >
-                        MUI
+                        Uco Sports
                     </Typography>
                     <CartWidget />
                     <Box sx={{ display: { xs: "none", sm: "block" } }}>
@@ -102,7 +102,6 @@ function Header(props) {
                 </Drawer>
             </Box>
         </Box>
-    );
+    )
 }
-
-export default Header;
+export default Header
